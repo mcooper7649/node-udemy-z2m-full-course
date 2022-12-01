@@ -5,7 +5,7 @@ function getMessages(req, res) {
     title: 'Messages to my Friends!',
     friend: 'Elon Musk',
   });
-  // res.sendFile(path.join(__dirname, '..', 'public', 'images', 'skimountain.jpg'));
+  // res.sendFile(path.join(__dirname, '..', 'public', 'skimountain.jpg'));
 }
 
 function postMessage(req, res) {
