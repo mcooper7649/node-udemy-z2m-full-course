@@ -13,7 +13,7 @@ celebrity.on('race win', () => {
 });
 
 process.on('exit', (code) => {
-  console.log('Proces exit event with');
+  console.log(`Proces exit event with${code}`);
 });
 
 celebrity.emit('race win');
